@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Dashboard.scss";
 import { FormattedMessage } from "react-intl";
+import SystemResourceUsage from "../components/SystemResourceUsage";
 
 const Dashboard: React.FC = () => {
   const [time, setTime] = useState("");
@@ -39,6 +40,11 @@ const Dashboard: React.FC = () => {
               defaultMessage="Dashboard"
             />
           </h2>
+        </Col>
+      </Row>
+      <Row className="gx-4 gy-4 cards-row flex-grow-1">
+        <Col xs={12} md={6} lg={4} className="d-flex">
+          <SystemResourceUsage />
         </Col>
       </Row>
     </Container>

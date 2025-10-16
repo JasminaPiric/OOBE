@@ -14,6 +14,18 @@
   "components.Sidebar.exit": {
     "defaultMessage": "Exit"
   },
+  "components.SystemResourceUsage.cpuUsage": {
+    "defaultMessage": "CPU usage"
+  },
+  "components.SystemResourceUsage.ramUsage": {
+    "defaultMessage": "RAM usage"
+  },
+  "components.SystemResourceUsage.realTimeUsage": {
+    "defaultMessage": "real time usage: {usage}"
+  },
+  "components.SystemResourceUsage.title": {
+    "defaultMessage": "System resource usage"
+  },
   "pages.Dashboard.title": {
     "defaultMessage": "Dashboard"
   }
