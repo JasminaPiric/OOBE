@@ -50,6 +50,18 @@
   "components.SystemResourceUsage.title": {
     "defaultMessage": "System resource usage"
   },
+  "components.SystemUsageLog.cpu": {
+    "defaultMessage": "CPU"
+  },
+  "components.SystemUsageLog.ram": {
+    "defaultMessage": "RAM"
+  },
+  "components.SystemUsageLog.title": {
+    "defaultMessage": "Log"
+  },
+  "components.SystemUsageLog.usageUpdate": {
+    "defaultMessage": "Usage update"
+  },
   "pages.Dashboard.title": {
     "defaultMessage": "Dashboard"
   }
