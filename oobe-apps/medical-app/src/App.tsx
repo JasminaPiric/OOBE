@@ -2,6 +2,7 @@ import { JSX, useState } from "react";
 import { Container, Row, Col, Spinner, Card } from "react-bootstrap";
 import { FormattedMessage } from "react-intl";
 import Sidebar, { SidebarSection } from "./components/Sidebar";
+import PatientOverview from "./components/PatientOverview";
 
 export type AppProps = {
   astarteUrl: URL;
@@ -20,13 +21,7 @@ const App = ({ astarteUrl, realm, deviceId, token }: AppProps) => {
   };
 
   const sectionContent: Record<SidebarSection, JSX.Element> = {
-    overview: (
-      <div>
-        <h3>
-          <FormattedMessage id="overview" defaultMessage="Patient overview" />
-        </h3>
-      </div>
-    ),
+    overview: <PatientOverview />,
     reports: (
       <div>
         <h3>
